@@ -32,12 +32,222 @@
     ></script>
   </head>
   <body>
-    <p>Hello! I am</p>
-    <h1>Jessica Pintado</h1>
-    <h2>Front-end developer based in Portugal</h2>
-    <button type="button" class="btn btn-primary">Contact me</button>
-    <div>
-      <i class="fab fa-instagram"> Instagram</i>
-    </div>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href="https://www.shecodes.io/"
+            target="_blank"
+            title="Visit shecodes.io"
+            ><img class="logo" src="/images/logo.png" alt="SheCodes logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active btn btn-selected shadow-sm"
+                  aria-current="page"
+                  href="/"
+                  title="Homepage"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-unselected shadow-sm ms-2"
+                  href="/about.html"
+                  title="About Jéssica Pintado"
+                  >About me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-unselected shadow-sm ms-2"
+                  href="/work.html"
+                  title="Front-End Development projects elaborated by Jéssica Pintado"
+                  >Work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-unselected shadow-sm ms-2"
+                  href="/contact.html"
+                  title="Contact Jéssica Pintado"
+                  >Contact me</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <p>Hello! I am</p>
+        <h1>Jessica Pintado</h1>
+        <h2>Front-end developer based in Portugal</h2>
+        <a href="#" title="Contact Jessica" class="btn btn-branding"
+          >Contact me</a
+        >
+      </div>
+      <div class="projects-overview">
+        <p class="text-center">
+          Here are some of the projects I have developed so far:
+        </p>
+
+        <div class="container">
+          <div class="row">
+            <div class="col d-none d-lg-block">
+              <img
+                src="images/weather-app.png"
+                class="img-fluid"
+                alt="Weather App preview"
+              />
+            </div>
+
+            <div class="col">
+              <div class="project-description">
+                <h2>Weather App</h2>
+                <h3>Project built with HTML, CSS and JavaScript.</h3>
+                <p class="text-muted">
+                  Check the current weather conditions and the weather forecast
+                  for the next 5 days, in your current location or the city you
+                  defined in the search bar.
+                </p>
+                <a
+                  href="https://jp-weather-app.netlify.app/"
+                  target="_blank"
+                  title="Access my Weather App project"
+                  class="btn btn-branding-outline"
+                  >Access the project</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <div class="project-description">
+                <h2>World Clock App</h2>
+                <h3>Project built with HTML, CSS and JavaScript.</h3>
+                <p class="text-muted">
+                  Check the current time in 3 pre-defined cities, your location
+                  or any city you choose in the drop-down list.
+                </p>
+                <a
+                  href="https://world-clock-by-jp.netlify.app/"
+                  target="_blank"
+                  title="Access my World Clock App project"
+                  class="btn btn-branding-outline"
+                  >Access the project</a
+                >
+              </div>
+            </div>
+
+            <div class="col d-none d-lg-block">
+              <img
+                src="images/world-clock-app.png"
+                class="img-fluid"
+                alt="World Clock App preview"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col d-none d-lg-block">
+              <img
+                src="images/motivational-quotes-generator.png"
+                class="img-fluid"
+                alt="Motivational Quotes Generator preview"
+              />
+            </div>
+
+            <div class="col">
+              <div class="project-description">
+                <h2>AI Motivational Quotes Generator</h2>
+                <h3>Project built with HTML, CSS and JavaScript.</h3>
+                <p class="text-muted">
+                  Get a motivational quote generated by AI regarding the topic
+                  you defined in the search bar.
+                </p>
+                <a
+                  href="https://motivational-quotes-by-ai.netlify.app/"
+                  target="_blank"
+                  title="Access my Motivational Quotes Generator project"
+                  class="btn btn-branding-outline"
+                  >Access the project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="contact-box justify-content-between d-none d-md-flex">
+        <div>
+          <h2>Work Inquiry</h2>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding"
+            title="Contact Jessica"
+            >Contact me</a
+          >
+        </div>
+      </div>
+
+       <div class="d-flex justify-content-center">
+        <a
+          href="mailto:jdmpintado@gmail.com"
+          class="email-link"
+          title="Email Jessica"
+          >jdmpintado@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/jdmpintado"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jessica-de-matos-pintado-706bba191/"
+          target="_blank"
+          title="LinkedIn Profile"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://instagram.com/jdmpintado"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <p class="text-muted">
+        ✌️ This website was coded by Jessica Pintado, and is open-sourced.
+      </p>
+    </footer>
   </body>
 </html>
