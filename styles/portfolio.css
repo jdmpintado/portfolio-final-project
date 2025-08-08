@@ -216,7 +216,6 @@ footer .social-links a {
     transition: all 100ms ease-in-out;
 }
 
-
 footer .social-links a:hover {
     background-color: var(--branding-color);
     color: white;
@@ -226,6 +225,46 @@ footer .social-links a:hover {
 footer p {
     font-size: 14px;
     margin: 40px 20px 20px;
+}
+
+.content-container {
+    padding: 160px 0 10px;
+}
+
+.content-box {
+    padding: 0 0 0 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 46px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.content .btn {
+    margin: 30px 0;
+}
+
+.photo {
+    padding: 0 25px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 @media (max-width: 900px) {
