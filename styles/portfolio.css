@@ -177,9 +177,9 @@ footer {
 
 footer .contact-box {
     background-color: var(--secondary-color);
-    padding: 40px 160px;
+    padding: 40px 80px;
     border-radius: 10px;
-    margin-bottom: 40px;
+    margin: 0 0 40px;
 }
 
 footer .contact-box h2 {
@@ -190,7 +190,7 @@ footer .contact-box h2 {
 footer .contact-box p {
     font-size: 18px;
     text-align: justify;
-    margin: 40px 0 20px;
+    margin: 20px 0;
 }
 
 footer .btn-branding {
@@ -240,13 +240,14 @@ footer p {
 }
 
 .content h1 {
-    font-size: 46px;
-    line-height: 50px;
+    font-size: 48px;
+    line-height: 52px;
     margin-bottom: 10px;
 }
 
 .content h2 {
     font-size: 20px;
+    line-height: 24px;
     margin-bottom: 20px;
 }
 
@@ -263,8 +264,11 @@ footer p {
 
 .photo {
     padding: 0 25px;
-    display: flex;
-    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.project-overview {
+    margin: 20px 0;
 }
 
 @media (max-width: 900px) {
@@ -277,8 +281,7 @@ footer p {
         font-size: 28px;
     }
 
-    .hero h1,
-    footer .contact-box h2 {
+    .hero h1 {
         font-size: 44px;
         line-height: 60px;
     }
@@ -289,8 +292,8 @@ footer p {
     }
 
     .btn-branding {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 14px;
+        line-height: 18px;
     }
 
     .projects-overview p {
@@ -324,21 +327,24 @@ footer p {
     .btn-branding-outline {
         display: block;
         font-size: 14px;
-        line-height: 20px;
+        line-height: 18px;
         padding: 10px 20px;
     }
 
     footer .contact-box {
-        padding: 40px 60px;
+        padding: 25px;
     }
 
     footer .contact-box p {
-        font-size: 18px;
-        margin: 20px 0 20px;
+        font-size: 14px;
+        margin: 10px 0;
     }
 
     footer .btn-branding {
-        margin-top: 40px;
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 18px;
+        padding: 10px;
     }
 
     footer .email-link {
@@ -360,7 +366,37 @@ footer p {
 
     footer p {
         font-size: 12px;
-        padding: 0 20px;
+        padding: 0;
+    }
+
+    .content-container {
+        padding: 120px 20px 0;
+    }
+
+    .content h1,
+    footer .contact-box h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .content h2 {
+        font-size: 16px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .content .btn {
+        display: block;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 10px 20px;
+        margin: 20px 0 0;
+    }
+
+    .photo {
+        margin-top: 20px;
     }
 
 }
