@@ -271,6 +271,10 @@ footer p {
     margin: 20px 0;
 }
 
+.main-contacts {
+    margin: 20px 0;
+}
+
 @media (max-width: 900px) {
 
     .hero {
@@ -302,6 +306,10 @@ footer p {
         margin-bottom: 0;
     }
 
+    .project-detail {
+        margin-bottom: 0;
+    }
+
     .project-description {
         text-align: justify;
     }
@@ -310,6 +318,7 @@ footer p {
         font-size: 34px;
         line-height: 42px;
         margin-bottom: 15px;
+        text-align: left;
     }
 
     .project-description h3 {
@@ -325,14 +334,23 @@ footer p {
     }
 
     .btn-branding-outline {
-        display: block;
         font-size: 14px;
         line-height: 18px;
         padding: 10px 20px;
     }
 
+    footer {
+        margin: 0;
+    }
+
+    footer .container {
+        margin-top: 0;
+    }
+
+
     footer .contact-box {
         padding: 25px;
+        margin: 0 20px;
     }
 
     footer .contact-box p {
@@ -349,6 +367,7 @@ footer p {
 
     footer .email-link {
         font-size: 20px;
+        margin: 20px 0;
     }
 
     footer .email-link:hover {
@@ -373,6 +392,10 @@ footer p {
         padding: 120px 20px 0;
     }
 
+    .content {
+        padding-bottom: 0;
+    }
+
     .content h1,
     footer .contact-box h2 {
         font-size: 30px;
@@ -383,12 +406,15 @@ footer p {
         font-size: 16px;
     }
 
+    .content h3 {
+        font-size: 24px;
+    }
+
     .content p {
         font-size: 14px;
     }
 
     .content .btn {
-        display: block;
         font-size: 14px;
         line-height: 18px;
         padding: 10px 20px;
@@ -398,5 +424,9 @@ footer p {
     .photo {
         margin-top: 20px;
     }
+
+        .main-contacts {
+            margin: 20px 0 40px;
+        }
 
 }
